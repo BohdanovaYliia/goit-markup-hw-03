@@ -19,10 +19,9 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .list {
@@ -37,12 +36,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-}
-
-.accent,
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
+  letter-spacing: 0.03em;
 }
 
 .site-nav .link {
@@ -52,14 +46,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-.site-nav .link.current {
-  color: var(--accent-color);
 }
 
 .contacts-header {
@@ -71,6 +57,12 @@ body {
   text-decoration: none;
 }
 
+.accent,
+.logo:hover,
+.logo:focus,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link.current,
 .contacts-header:hover,
 .contacts-header:focus {
   color: var(--accent-color);
@@ -92,14 +84,11 @@ body {
 .hero-button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  font-family: Roboto, sans-serif;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  align-items: center;
-  text-align: center;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 /* общие стили секций Студии */
@@ -109,7 +98,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* стили особенностей Студии */
@@ -119,23 +108,26 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
-
+.features-text {
+  letter-spacing: 0.03em;
+}
 /* стили работ Студии */
 
 /* стили команды Студии */
-.workers {
+.team {
   background-color: var(--other-bg-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
 }
-.worker-name {
+.team-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
   text-align: center;
 }
 
@@ -155,6 +147,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .contacts-footer {
@@ -164,6 +157,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .footer-logo:hover,
@@ -187,21 +181,23 @@ body {
   text-align: center;
 }
 
+.current-button,
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
-.project-title {
+.portfolio-card-subtitle {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.project-category {
+.portfolio-card-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
 }
