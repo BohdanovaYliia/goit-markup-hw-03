@@ -19,16 +19,27 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.71;
 }
 
 .list {
   list-style: none;
+
+  padding: 0;
+  margin: 0;
 }
 
 /* стили шапки */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
 .logo {
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
@@ -72,14 +83,19 @@ body {
 .hero {
   background-color: var(--secondary-bg-color);
   letter-spacing: 0.06em;
+
+  text-align: center;
+  margin-bottom: 94px;
 }
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .hero-button {
   background-color: var(--accent-color);
@@ -89,19 +105,32 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
+  border: none;
 }
 
 /* общие стили секций Студии */
-
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 /* стили особенностей Студии */
+.features {
+  margin-bottom: 94px;
+}
+
 .features-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -109,11 +138,20 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .features-text {
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* стили работ Студии */
+.works {
+  margin-bottom: 94px;
+}
 
 /* стили команды Студии */
 .team {
@@ -122,13 +160,27 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-align: center;
+
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
+.team-photo {
+  margin-bottom: 30px;
+}
+
 .team-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.team-text {
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 /* стили подвала */
@@ -170,6 +222,11 @@ body {
 }
 
 /* стили Портфолио */
+.portfolio {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
 .portfolio-button {
   background-color: var(--other-bg-color);
   color: var(--title-text-color);
@@ -178,7 +235,12 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
   text-align: center;
+  border: none;
 }
 
 .current-button,
@@ -188,16 +250,27 @@ body {
   color: var(--primary-white-color);
 }
 
+.portfolio-card-img {
+  margin-bottom: 20px;
+}
+
 .portfolio-card-subtitle {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-top: 0;
+  margin-bottom: 4px;
 }
+
 .portfolio-card-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 20px;
 }
