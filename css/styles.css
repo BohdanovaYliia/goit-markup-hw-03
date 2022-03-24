@@ -44,6 +44,20 @@ body {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* стили шапки */
@@ -125,6 +139,7 @@ img {
 
 /* стили главной секции Студии */
 .hero {
+  padding: 200px 0;
   text-align: center;
 
   background-color: var(--secondary-bg-color);
@@ -278,8 +293,11 @@ img {
 }
 
 .contacts-footer {
-  display: inline-block;
   margin-top: 20px;
+}
+
+.contacts-footer-list {
+  display: inline-block;
 }
 
 .contacts-footer-item + .contacts-footer-item {
